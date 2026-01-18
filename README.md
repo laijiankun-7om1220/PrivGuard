@@ -95,17 +95,7 @@ The system adopts a frontend-backend separation architecture:
 
 
 
-### History Management
 
-- View all detection records (software name, AI model used, detection time)
-- View detection details (14 detection results)
-- Export detection results as JSON format
-- Delete detection records
-
-### User Management
-
-- User registration/login
-- Personal information management (username, phone, email, password modification)
 
 ## Project Structure
 
