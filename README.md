@@ -145,25 +145,7 @@ reactVersion/
 └── README.md
 ```
 
-## Methodology
 
-### AI Detection Pipeline
-
-1. **Document Parsing**: Select appropriate parser based on file format (Word/PDF/TXT)
-2. **Text Preprocessing**: Apply preprocessing pipeline to optimize text quality
-3. **Prompt Construction**: Build detection instructions based on predefined prompt templates
-4. **Model Invocation**: Call the selected large language model API for analysis
-5. **Result Parsing**: Parse the JSON results returned by the model, extract 14 detection results
-6. **Result Validation**: Ensure all 14 detection results are included
-7. **Data Storage**: Store detection results and metadata in the database
-
-### Prompt Design
-
-The system adopts structured prompt design, clearly informing the model:
-- Task objectives and judgment criteria
-- Detailed definitions of 14 detection dimensions
-- Output format requirements (strict JSON format)
-- Judgment principles (based only on text content, no external assumptions)
 
 ## Development Commands
 
