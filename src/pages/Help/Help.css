@@ -1,0 +1,190 @@
+/* ========== Help 页面容器 ========== */
+.help-page {
+  padding: 40px 24px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: calc(100vh - 64px);
+}
+
+/* ========== 顶部标题区域 ========== */
+.help-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.help-main-title {
+  font-size: 36px !important;
+  font-weight: 700 !important;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 16px !important;
+}
+
+.help-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 0 !important;
+}
+
+/* ========== 内容区域 ========== */
+.help-content {
+  margin-top: 40px;
+}
+
+/* ========== 卡片样式 ========== */
+.help-card-item {
+  height: 100%;
+  min-height: 220px;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
+  text-align: center;
+  padding: 28px 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.help-card-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  border-color: transparent;
+}
+
+.help-card-item:hover .help-card-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* 卡片图标 */
+.help-card-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 28px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+/* 卡片标题 */
+.help-card-title {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin-bottom: 12px !important;
+  color: #333 !important;
+  line-height: 1.4 !important;
+}
+
+/* 卡片描述 */
+.help-card-desc {
+  margin: 0 !important;
+  color: #666 !important;
+  line-height: 1.8 !important;
+  font-size: 14px !important;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* ========== 响应式设计 ========== */
+@media (max-width: 1024px) {
+  .help-page {
+    padding: 32px 20px 50px;
+  }
+
+  .help-main-title {
+    font-size: 30px !important;
+  }
+
+  .help-card-item {
+    min-height: 200px;
+    padding: 24px 16px;
+  }
+
+  .help-card-icon {
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .help-card-title {
+    font-size: 16px !important;
+  }
+
+  .help-card-desc {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .help-page {
+    padding: 24px 16px 40px;
+  }
+
+  .help-main-title {
+    font-size: 26px !important;
+  }
+
+  .help-subtitle {
+    font-size: 14px;
+  }
+
+  .help-card-item {
+    min-height: 180px;
+    padding: 20px 16px;
+  }
+
+  .help-card-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .help-card-title {
+    font-size: 15px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .help-card-desc {
+    font-size: 13px !important;
+    line-height: 1.6 !important;
+  }
+
+  .help-content {
+    margin-top: 32px;
+  }
+}
+
+/* ========== 动画效果 ========== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.help-card-item {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.help-card-item:nth-child(1) { animation-delay: 0.05s; }
+.help-card-item:nth-child(2) { animation-delay: 0.1s; }
+.help-card-item:nth-child(3) { animation-delay: 0.15s; }
+.help-card-item:nth-child(4) { animation-delay: 0.2s; }
+.help-card-item:nth-child(5) { animation-delay: 0.25s; }
+.help-card-item:nth-child(6) { animation-delay: 0.3s; }

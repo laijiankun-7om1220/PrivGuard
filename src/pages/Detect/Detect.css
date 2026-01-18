@@ -1,0 +1,36 @@
+.detect-page {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.detect-steps-card {
+  margin-bottom: 24px;
+}
+
+.detect-steps {
+  padding: 20px 0;
+}
+
+.model-selector-card {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #f6f9ff 0%, #fef5ff 100%);
+  border: 1px solid #e6f0ff;
+}
+
+.detect-content {
+  min-height: 400px;
+}
+
+.upload-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.file-upload-card {
+  max-width: 800px;
+  margin: 0 auto;
+}

@@ -1,0 +1,28 @@
+.detect-result-card {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.result-summary {
+  margin-bottom: 24px;
+}
+
+.result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 8px 0;
+}
+
+.result-label {
+  font-size: 14px;
+  flex: 1;
+}
+
+.result-actions {
+  text-align: center;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #f0f0f0;
+}
