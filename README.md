@@ -27,10 +27,7 @@ The system adopts a frontend-backend separation architecture:
 - **Qwen (通义千问)**: Qwen Plus
 - **Doubao (豆包)**: Doubao Seed
 
-### Document Processing
-- **Word Parsing**: mammoth.js
-- **PDF Parsing**: pdfjs-dist
-- **Text Processing**: Custom preprocessing pipeline
+
 
 ## Quick Start
 
@@ -167,9 +164,7 @@ npm run lint
 
 6. **Database Fields**: Bmob table has field count limits. Detection options are optimized to JSON format storage.
 
-## Evaluation and Experiments
 
-(If applicable, add experimental evaluation results, dataset information, performance metrics, etc.)
 
 ## Citation
 
