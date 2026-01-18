@@ -93,29 +93,7 @@ The system adopts a frontend-backend separation architecture:
 
     The application will start at [http://localhost:5173](http://localhost:5173)
 
-## Core Features
 
-### Privacy Policy Detection
-
-The system supports the following detection workflow:
-
-- **Software Information Entry**: Records metadata such as application name, category, title, and description
-- **Document Upload**: Supports Word (.doc, .docx), TXT, PDF formats, or direct text paste
-- **Automatic Text Preprocessing**: Cleans formats and optimizes structure to improve recognition accuracy
-- **AI Model Selection**: Supports selection of different large language models for analysis
-- **Intelligent Analysis**: Automatically identifies key content in privacy policies
-- **Result Visualization**: Visually displays 14 detection results
-
-### Text Preprocessing Mechanism
-
-The system implements a specialized text preprocessing pipeline including:
-
-- **Format Cleaning**: Unifies line breaks, cleans excess whitespace, removes headers and footers
-- **Character Normalization**: Cleans special characters (zero-width characters, non-breaking spaces, etc.), normalizes punctuation
-- **Structure Optimization**: Unifies paragraph separators, cleans empty lines, optimizes text structure
-- **Intelligent Truncation**: For overly long texts, preserves complete sentences when limiting length to ensure semantic completeness
-
-The preprocessing mechanism can significantly improve LLM recognition accuracy and reduce token consumption.
 
 ### History Management
 
